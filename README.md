@@ -1,5 +1,8 @@
 # 🎈 [Blogo](https://blogo.site)
 
+> [!IMPORTANT]
+> It is recommended to switch/run the [v3 version](https://github.com/pluja/blogo/tree/v3), you can find it in the [v3 branch](https://github.com/pluja/blogo/tree/v3).Soon, it will be merged into main!
+
 Blogo is a light and easy blogging engine. No complicated extras, just a straightforward blog. 
 
 Now, here's the twist: Blogo can also publish your posts to Nostr for backing them up and getting even more reach. **Lift your ideas higher!**
