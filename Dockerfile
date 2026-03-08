@@ -44,5 +44,5 @@ COPY --from=node /app/static/css/style.css ./static/css/style.css
 ENV TZ="Europe/Warsaw"
 ENV PATH="/app:$PATH"
 
-EXPOSE 3000
+EXPOSE 3100
 CMD ["/app/blogo", "-path", "/app"]

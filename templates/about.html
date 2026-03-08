@@ -16,7 +16,7 @@
 {{define "main"}}
 <section class="block px-4 mt-8">
     <h1 class="mb-12 text-4xl text-center uppercase">About</h1>
-    <div id="markdown" class="pb-12 prose prose-2xl prose-blue prose-code:text-base prose-hr:border-zinc-600 prose-hr:dark:border-zinc-400 prose-blockquote:border-blue-600 prose-blockquote:dark:border-blue-900 dark:prose-invert font-garamond">
+     <div id="markdown" style="font-family: 'FiraSans', sans-serif;" class="mx-auto pb-12 prose dark:prose-invert prose-code:text-base prose-hr:border-zinc-600 prose-hr:dark:border-zinc-400 prose-blockquote:border-blue-600 prose-blockquote:dark:border-blue-900">
         {{if ne .About.Html ""}}
             {{html .About.Html}}
         {{else}}
