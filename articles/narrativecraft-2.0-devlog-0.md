@@ -1,5 +1,5 @@
 ---
-Date: 2026-03-08 16:02
+Date: 2026-03-08 18:46
 Draft: false
 Layout: post
 Summary: showing what i've done so far
