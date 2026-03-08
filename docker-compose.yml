@@ -1,0 +1,16 @@
+services:
+  blog:
+    build: .
+    container_name: blog-loudo
+    ports:
+      - "3100:3000"
+    volumes:
+      - ./articles:/app/articles
+      - ./static/assets:/app/static/assets
+    restart: unless-stopped
+    environment:
+      BLOGO_TITLE: LOUDO's blog
+      BLOGO_DESCRIPTION: welcome to my yapping place
+      BLOGO_KEYWORDS: blog, personal, dev
+      BLOGO_URL: http://localhost:3100
+      PUBLISH_TO_NOSTR: false
